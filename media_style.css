@@ -1,0 +1,139 @@
+@media screen and (max-width: 800px) {
+
+ .footer .block1f p{
+        font-size: 40px;
+         
+    }
+}
+@media screen and (max-width: 1100px){
+    
+    .list3 h1{
+        font-size: 60px;
+    }
+    .list3 p{
+        font-size: 35px;
+    }
+    .content_block3{
+        width: 50%;
+    }
+    .right_block, .left_block{
+        float: none !important;
+        text-align: center;
+    }
+    .left_block{
+        margin: 0 auto;
+    }
+   .left_block{
+    float: left;
+    width: 60%;
+    padding-left: 1;
+    padding-top: 100px;
+}
+    .left_block p{
+        font-size: 35px
+    }
+    .left_block h1{
+        font-size: 70px;
+    }
+   
+    .list1{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;  
+    }
+    .list2{
+        padding-bottom: 100px;
+    }
+    
+   
+    .menu a{
+        display: none;
+        font-size: 40px
+    }
+    .img_fon{
+        background-image: none !important; 
+    }
+    
+       .adaptive a, .menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    padding-bottom: 5px;
+    
+    }
+    
+    .menu .icon{
+        display: block;
+        position: absolute;
+        float: right;
+        right: 5%;
+        top: -50px;
+        font-size: 40px;
+    }
+    .menu{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    .menu .icon{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+   .icon{
+    font-size: 30px;
+    border: none;
+    display: none;
+}
+}
+@media screen and (max-width: 1200px){
+    .reg_block1{
+    padding-right: 7%;
+    }
+    .list6 .right_blockL6 {
+    width: 30%;
+    margin-right: 2%;
+}
+    }
+    @media screen and (max-width: 1000px){
+        .list6 .right_blockL6 {
+        float: none;
+        padding-top: 600px;
+        margin: 0 auto;
+        width: 80%;
+    }
+        .register{
+            justify-content: center;
+        }
+        .reg_block1{
+         padding-right: 0%;
+        
+    }
+        .list6 input{
+            height: 80px;
+            width: 500px;
+            font-size: 40px
+        }
+        .list6 .text{
+            font-size: 35px
+        }
+         .img_1{
+             position: relative;
+             left: 25%;   
+        }
+        .list6 p{
+        font-size: 30px;
+        }
+        .list6 h1{
+            font-size: 60px;
+        }
+    }
+    
+
+  
